@@ -1,0 +1,157 @@
+.rol{
+    position: absolute;
+    top: 3000px;
+}
+
+
+
+
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    margin: 0 20px;
+}
+.menu-line{
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-item{
+    color: #0170b9;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+
+    margin-right: 30px;
+
+    transition: color 0.2s linear;
+}
+
+.nav-item:hover{
+    color: #47b5ff;
+}
+
+.num{
+    color: #0170b9;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.2s linear;
+}
+
+.phone{
+    border-left: 2px solid darkgray;
+    height: 70px;
+    padding-left: 60px;
+}
+
+.num:hover{
+    color: #47b5ff;
+}
+
+.phone-text{
+    color: #0170b9;
+    font-weight: 700;
+}
+.phone-holder{
+    display: flex;
+    align-items: center;
+}
+.line{
+    background-color: darkgray;
+    position: absolute;
+    top: 105px;
+    width: 1347px;
+    align-items: center;
+    height: 2px;
+
+}
+.content{
+    display: flex;
+}
+.block{
+    margin-top: 20px;
+    margin-left: 0;
+    background-color: #0170b9;
+    width: 683px;
+    height: 510px;
+    margin-right: 10px;
+}
+.zagalovk{
+    position: absolute;
+    left: 30px;
+    right: 600px;
+    color: white;
+}
+.min-line{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 450px;
+    height: 3px;
+    top: 260px;
+    left: 30px;
+}
+.information{
+    padding: 130px 0 0 30px;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+.photo{
+    position: absolute;
+    width: 600px;
+    height: 451px;
+    right: 50px;
+    top: 155px;
+    box-shadow: 0 0 5px black;
+}
+.first-line{
+    position: absolute;
+    background-color: #0170b9;
+    top: 750px;
+    width: 550px;
+    height: 4px;
+    left: 50px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.second-line{
+    position: absolute;
+    background-color: #0170b9;
+    top: 750px;
+    width: 550px;
+    height: 4px;
+    right: 50px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.col{
+    position: absolute;
+    top: 725px;
+    left: 650px;
+    width: 45px;
+}
+.news{
+    position: relative;
+    top: 150px;
+    color: #0170b9;
+    font-size: 20px;
+}
+.image1{
+    position: absolute;
+    left: 50px;
+    top: 950px;
+}
+.text{
+    position: absolute;
+    top: 1200px;
+    font-size: 20px;
+}
